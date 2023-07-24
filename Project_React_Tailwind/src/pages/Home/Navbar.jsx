@@ -1,3 +1,4 @@
+import ButtonGetStarted from "../../components/Button"
 
 function Navbar() {
     return(
@@ -20,7 +21,7 @@ function Navbar() {
                         <a href="" className="hover:text-DarkGrayishBlue transition-colors">Community</a>
                     </div>
                     {/* Button */}
-                    <a href="" className="hidden md:block bg-BrightRed text-VeryPaleRed rounded-full p-3 px-4 pt-2 transition-colors hover:bg-red-400">Get Started</a>
+                    <ButtonGetStarted className="hidden"/>
                 </div>
             </nav>
         </>
