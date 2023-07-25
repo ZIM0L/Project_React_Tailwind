@@ -4,7 +4,7 @@ function Navbar() {
     return(
         <>
             {/* Navbar */}
-            <nav className="relative container bg-slate-50 text-center mx-auto p-6">
+            <nav className="relative container text-center mx-auto p-6">
                 {/* Flex Container */}
                 <div className="flex items-center justify-between">
                     {/* Logo */}
@@ -21,7 +21,7 @@ function Navbar() {
                         <a href="" className="hover:text-DarkGrayishBlue transition-colors">Community</a>
                     </div>
                     {/* Button */}
-                    <ButtonGetStarted className="hidden"/>
+                    <ButtonGetStarted className="hidden md:block"/>
                 </div>
             </nav>
         </>
