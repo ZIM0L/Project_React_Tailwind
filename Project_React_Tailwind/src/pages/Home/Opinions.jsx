@@ -37,7 +37,7 @@ function Opinions() {
                     </div>
                 </div>
                 <div className="my-16">
-                    <ButtonGetStarted />
+                    <ButtonGetStarted className={"text-VeryPaleRed"}/>
                 </div>
             </div>
         </section>

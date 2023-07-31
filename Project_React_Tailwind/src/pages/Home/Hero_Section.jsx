@@ -12,7 +12,7 @@ function HeroSection() {
                         <h1 className=" max-w-md text-4xl text-center font-bold md:text-5xl md:text-left ">Bring everyone together to build better products.</h1>
                         <p className=" max-w-sm text-center text-DarkGrayishBlue md:text-left">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
                         <div className="flex justify-center md:justify-start">
-                        <ButtonGetStarted />
+                        <ButtonGetStarted className={"text-VeryPaleRed"}/>
                         </div>
                     </div>
                     {/* Right */}

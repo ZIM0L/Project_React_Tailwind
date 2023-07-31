@@ -15,5 +15,20 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
-
+body{
+  background-image: url("src/assets/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 90% -25%;
+}
+@media (max-width: 576px) {
+  body{
+    background-size: 500px;
+    background-position: 50px -50px;
+  }
+}
+/* not working  */
+#CTA {
+  background-image: url("/src/assets/bg-simplify-section-desktop.svg");
+  background-position: 90% -25%;
+}
