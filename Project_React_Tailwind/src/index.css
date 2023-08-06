@@ -30,5 +30,27 @@ body{
 /* not working  */
 #CTA {
   background-image: url("/src/assets/bg-simplify-section-desktop.svg");
+  background-repeat: no-repeat;
   background-position: 90% -25%;
+}
+
+.open { 
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+.hamb-top,
+.hamb-mid,
+.hamb-bott{
+  transform: rotate(0);
+  transition: all 0.25s;
+}
+
+.open .hamb-top {
+  transform: rotate(45deg)  translateY(6px);
+}
+.open .hamb-mid {
+  display: none;
+}
+.open .hamb-bott {
+  transform: rotate(-45deg)  translateY(-6px);
 }

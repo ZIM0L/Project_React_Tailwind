@@ -1,5 +1,4 @@
 import ButtonGetStarted from "../../components/Button"
-import '/src/index.css'
 
 function CTASection() {
     return(
